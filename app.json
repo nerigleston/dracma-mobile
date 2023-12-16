@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Dracma",
+    "slug": "Dracma",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#020202"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.neri.Dracma"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.neri.Dracma"
+    },
+    "web": {
+      "favicon": "./src/assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cff5b3a8-916a-41a3-b1d1-72b96c54d73d"
+      }
+    }
+  }
+}
